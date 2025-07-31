@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="scroll-indicator" role="progressbar" aria-label="Page scroll progress"></div>
+    
+    <nav class="navbar" id="navbar" role="navigation">
+        <div class="nav-container">
+            <a href="#home" class="logo" aria-label="Brand homepage">Brand</a>
+            <ul class="nav-menu" id="nav-menu" role="menubar">
+                <li class="nav-item" role="none">
+                    <a href="#home" class="nav-link" role="menuitem">Home</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#about" class="nav-link" role="menuitem">About</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#services" class="nav-link" role="menuitem">Services</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#portfolio" class="nav-link" role="menuitem">Portfolio</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#contact" class="nav-link" role="menuitem">Contact</a>
+                </li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Welcome to the Future</h1>
+                <p>Experience cutting-edge design with our responsive landing page featuring dynamic navigation that adapts as you scroll and provides seamless user interaction.</p>
+                <a href="#about" class="cta-button">Get Started</a>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <h2>About Us</h2>
+            <p>We create modern, responsive web experiences that captivate and engage users. Our navigation system demonstrates advanced CSS techniques with smooth transitions and interactive hover effects that work flawlessly across all devices.</p>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">🚀</div>
+                    <h3>Fast Performance</h3>
+                    <p>Optimized for speed with smooth animations and efficient code structure that ensures your site loads quickly and runs smoothly on all devices.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">📱</div>
+                    <h3>Mobile Responsive</h3>
+                    <p>Fully responsive design that works perfectly on all devices and screen sizes, from mobile phones to desktop computers.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">🎨</div>
+                    <h3>Modern Design</h3>
+                    <p>Contemporary aesthetics with beautiful gradients, interactive elements, and cutting-edge design principles that engage users.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="services">
+            <h2>Our Services</h2>
+            <p>We offer comprehensive web development solutions with a focus on user experience and modern design principles. Our navigation system showcases advanced CSS animations and JavaScript interactivity that creates memorable user experiences.</p>
+        </section>
+
+        <section class="section" id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Check out our latest projects featuring innovative navigation designs and responsive layouts. Each project demonstrates our commitment to creating engaging user experiences with attention to detail and modern web standards.</p>
+        </section>
+
+        <section class="section" id="contact">
+            <h2>Contact Us</h2>
+            <p>Ready to start your project? Get in touch with us to discuss how we can create amazing web experiences with dynamic navigation, responsive design, and cutting-edge functionality that drives results.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
